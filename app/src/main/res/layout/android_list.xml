@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/oreo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/oreo" />
+
+    <TextView
+        android:id="@+id/versionOreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 6"
+        android:layout_toRightOf="@+id/oreo"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/nameOreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/versionOreo"
+        android:text="Marshmallow"
+        android:layout_marginLeft="250dp"/>
+
+    <ImageView
+        android:id="@+id/nougat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/nougat"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/versionNougat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 7"
+        android:layout_toRightOf="@+id/nougat"
+        android:layout_marginTop="120dp"/>
+
+    <TextView
+        android:id="@+id/nameNougat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/versionNougat"
+        android:text="Nougat"
+        android:layout_marginLeft="250dp"/>
+
+    <ImageView
+        android:id="@+id/marshmallow"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="150dp"
+        android:src="@drawable/marshmallow"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/versionMarshmallow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 6"
+        android:layout_toRightOf="@+id/marshmallow"
+        android:layout_marginTop="220dp"/>
+
+    <TextView
+        android:id="@+id/nameMarshmallow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/versionMarshmallow"
+        android:text="Nougat"
+        android:layout_marginLeft="250dp"/>
+
+</RelativeLayout>
